@@ -52,7 +52,7 @@ Description: If the generated text images contain readable text (e.g., OCR outpu
 Usage: An OCR model can be used to extract the text from the generated and real samples, and then compute cosine similarity between their vector representations. This can help evaluate the textual fidelity of the generated content.
 
 ### Current Status and Next Steps
-I have completed Task 2. Currently, I am working on finetuning this model, which involves training the GAN model and generating synthetic renaissance style text from the images
+I have just now started this task. I have created a basic GAN model. Currently, I am working on finetuning this model, which involves training the GAN model and generating synthetic renaissance style text from the images
 
 Given that the deadline is approaching, I am submitting my progress as is because I believe this approach is worth pursuing and is a solid direction to take. I am confident that with the current methodology, the remaining tasks will be completed in a timely manner. 
 
