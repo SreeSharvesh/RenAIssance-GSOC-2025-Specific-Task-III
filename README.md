@@ -76,7 +76,7 @@ Here are the evaluation metrics of my current progress:
 | 8     | 50    | 0.8604  | 8.7741  |
 | 10    | 50    | 0.4230  | 23.2497 |
 
-More can be seen from the `.pynb` file.
+More can be seen from the `.ipynb` file.
 
 ### Conclusion
 This approach leverages GANs for generating synthetic Renaissance-style printed text with realistic degradation effects. By using a dataset of historical text and augmenting it with printing imperfections, the model aims to replicate the look of 17th-century printed pages. The next steps involve training the model, generating synthetic text images, and evaluating their quality.
