@@ -30,9 +30,6 @@ The training process consists of alternating between training the generator and 
 - **Discriminator Training**: The discriminator is trained to classify real and fake image pairs.
 - **Generator Training**: The generator is trained to fool the discriminator while minimizing the L1 loss between the generated image and the degraded image.
 
-### Results Evaluation
-To evaluate the performance of the generated images, we use Structural Similarity Index (SSIM), a metric that measures the similarity between two images. The SSIM scores between the generated images and the real 17th-century samples are computed. A higher SSIM score indicates that the generated image closely resembles the real historical samples.
-
 ### Evaluation Metrics
 #### 1. Structural Similarity Index (SSIM):
 Description: SSIM is a perceptual metric that measures the similarity between two images by considering changes in structural information, luminance, and texture. It is commonly used in image processing tasks and can be useful for comparing your generated degraded images with real samples of historical texts.
